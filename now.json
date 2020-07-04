@@ -1,8 +1,10 @@
 {
+    "name": "subconverter-ZEIT",
+    "version": 2,
     "builds": [
         {
             "src": "subconverter/subconverter.exe",
-            "use": "@vercel/static",
+            "use": "now-static-bin",
             "config": {
                 "port": 25500,
                 "timeout": 1500,
