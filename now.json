@@ -1,10 +1,6 @@
 {
-    "name": "subconverter-ZEIT",
+    "name": "subc,
     "version": 2,
-    "builds": [
-        {
-            "src": "bootstrap.sh", "use": "@now/bash"
-        },
         {
             "src": "subconverter/subconverter.exe",
             "use": "now-static-bin",
