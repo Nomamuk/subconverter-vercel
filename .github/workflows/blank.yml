@@ -1,8 +1,8 @@
 name: Auto push
  
 on:
-  push:
-    branches: [ master ]
+  #push:
+  #  branches: [ master ]
   schedule:
     - cron: 35 21 * * 4
   watch:
