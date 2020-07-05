@@ -1,6 +1,6 @@
 name: Auto push
  
-on:
+on: 
  push:
     branches: [ master ]
   schedule:
