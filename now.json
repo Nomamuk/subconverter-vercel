@@ -1,6 +1,6 @@
 {
     "name": "subc,
-    "version": 2,
+    "version": 2, 
     "builds": [
         {
             "src": "subconverter/subconverter.exe",
