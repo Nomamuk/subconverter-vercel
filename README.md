@@ -5,4 +5,4 @@
 
 ### 项目说明 ###
 * 利用github action实现每隔7天或在修改项目时**获取最新版本的subconverter**，并在vercel上进行部署。
-* 需要设置personal access tokens(名称为GITHUB_TOKEN)
+* 需要设置personal access tokens(名称为GITHUB_TOKEN & 需要设置 repo、 admin:repo_hook、 workflow)
