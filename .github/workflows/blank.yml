@@ -1,8 +1,8 @@
 name: Auto push
  
 on:
-  #push:
-  #  branches: [ master ]
+ push:
+    branches: [ master ]
   schedule:
     - cron: 35 21 * * 4
   watch:
@@ -19,7 +19,7 @@ jobs:
         curl -LO https://github.com/tindy2013/subconverter/releases/latest/download/subconverter_linux64.tar.gz
         tar xvf subconverter_linux64.tar.gz
         mv -f subconverter/subconverter subconverter/subconverter.exe
-    - name: log push  
+    - name: log push  #获得自动部署的时间
       run: | 
         echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.log
     - name: Commit #上传到仓库
