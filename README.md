@@ -1,4 +1,4 @@
-#subconverter-ZEIT(vercel\now.sh)
+# subconverter-ZEIT(vercel\now.sh)
 
 * 本项目核心是tindy2013的[subconverter项目](https://github.com/tindy2013/subconverter)。
 * 本项目只是提供一个自动、免费、无需额外设备的脚本运行方式。
