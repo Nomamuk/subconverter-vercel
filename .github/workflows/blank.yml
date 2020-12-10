@@ -1,6 +1,7 @@
 name: Auto push
  
 on: 
+  workflow_dispatch:
   push: 
     branches: [ master ]
   schedule:
